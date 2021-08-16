@@ -8,6 +8,11 @@
 body {font-family: Arial;}
 
 /* Style the tab */
+
+h3 {text-align: center;}
+h4 {text-align: center;}
+p {text-align: center;}
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -44,7 +49,7 @@ body {font-family: Arial;}
   border-top: none;
 }
 
-#p6 {
+#results {
   display: none;
 }
 
@@ -69,11 +74,11 @@ body {font-family: Arial;}
 <div id="all" class="tabcontent">
 
 <div class="container">
-    <h3>Survival Probability based on nomogram derived from glioblastoma patients age 60+ treated at BC Cancer Agency
-     </h3>
+    <p>Survival Probability based on nomogram derived from glioblastoma patients age 60+ treated at BC Cancer Agency
+     </p>
              <div class="form-group">
                <label for="">Age </label>
-               <input type="text" name="age" class="form-control" required placeholder="60+" style='width:5em'>
+               <input type="text" id = "age" name="age" class="form-control" required placeholder="60+" style='width:5em'>
 
              </div>
 
@@ -114,26 +119,23 @@ body {font-family: Arial;}
                 </select>
               </div>
 
-             <button class="button" onclick="calculate()">Calculate</button>
+             <button class="btn btn-primary" onclick="calculate()">Calculate</button>
 
            </form>
 </div>
 
-<div class="row" id="results">
+<div id="results">
 
-          <div class="col-sm-6" style="background-color:darkseagreen;">
-
-            <h4> 6 Month Survival Probabiilty</h4>
-            <div id="p6">
-                <p> {{prob_low_6}} to {{prob_high_6}} </p>
-    	    </div>
-
-            <h4> 12 Month Survival Probabiilty</h4>
-            <p> {{prob_low_12}} to {{prob_high_12}} <p>
+          <div style="background-color:darkseagreen;">
+            
+            <h3 id="prob6"></h3>
+            
+            <h3 id="prob12"></h3>
             
 
           </div>
 
+<!--
           <div class="col-sm-6" style="background-color:lavender;">
 
             <h4> Patient Information</h4>
@@ -144,11 +146,11 @@ body {font-family: Arial;}
             <p> Radiation Therapy Fractions: {{frac}}</p>
 
           </div>
+-->
 </div>
 
        
 </div>
-
 
 
 <div id="rt" class="tabcontent">
