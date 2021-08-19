@@ -35,7 +35,7 @@ function calculate_rt(){
     var prob_6 = [];
 
     
-    let age = document.getElementById("age").value;
+    let age = document.getElementById("age_rt").value;
 
         if (age < 70){
            age_pt = 0;
@@ -47,7 +47,7 @@ function calculate_rt(){
             age_pt = 16
         }
 
-    let kps = document.getElementById("kps").value;
+    let kps = document.getElementById("kps_rt").value;
 
         if (kps == "2"){
             kps_pt = 12;
@@ -56,7 +56,7 @@ function calculate_rt(){
             kps_pt = 24;
           }
 
-    let resection = document.getElementById("resection").value;
+    let resection = document.getElementById("resection_rt").value;
 
         if (resection == "biopsy"){
             resection_pt = 31;
@@ -68,14 +68,14 @@ function calculate_rt(){
             resection_pt = 0;
           }    
 
-    let chemo = document.getElementById("chemotherapy").value;
+    let chemo = document.getElementById("chemotherapy_rt").value;
 
         if (chemo == "no"){
             chemo_pt = 100;
           }
 
 
-    let frac = document.getElementById("frac").value;
+    let frac = document.getElementById("frac_rt").value;
 
         if (frac == "60/30"){
             frac_pt = 12;
@@ -193,7 +193,7 @@ function calculate_all(){
 
 
         
-    let age = document.getElementById("age").value;
+    let age = document.getElementById("age_all").value;
 
         if (resection == "biopsy" && frac == "no"){
           if (age < 70){
@@ -208,18 +208,6 @@ function calculate_all(){
 
         }
 
-        if (resection == "biopsy" && frac == "no"){
-          if (age < 70){
-            age_pt = 99;
-          }
-          else if (age < 80){
-            age_pt = 100;
-          }
-          else{
-            age_pt = 64;
-          }
-
-        }
 
         if (resection == "gt" && frac == "no"){
           if (age < 70){
@@ -352,9 +340,9 @@ function calculate_all(){
 
   document.getElementById("prob12_all").innerHTML = p12_all;
 
-  let x = document.getElementById("results").style.display;
+  let x = document.getElementById("results_all").style.display;
   
-  document.getElementById("results").style.display = "block";
+  document.getElementById("results_all").style.display = "block";
 
 
 }
