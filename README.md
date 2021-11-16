@@ -6,10 +6,11 @@
 Available at gbm-nomogram.github.io
 -->
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Glioblastoma Nomogram - Survival Probability</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    his is a web tool created to predict survival probability based on nomograms derived from the BC cancer registery. 
+Available at gbm-nomogram.github.io
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
