@@ -12,13 +12,11 @@ Available at gbm-nomogram.github.io
     his is a web tool created to predict survival probability based on nomograms derived from the BC cancer registery. 
 Available at gbm-nomogram.github.io
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/gbm-nomogram/gbm-nomogram.github.io/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
+    <a href="https://gbm-nomogram.github.io">View Web Tool</a>
+    <br />
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
