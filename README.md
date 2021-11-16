@@ -3,8 +3,7 @@
 <div id="top"></div>
 <!--
 *** This is a web tool created to predict survival probability based on nomograms derived from the BC cancer registery. 
-*** Available at gbm-nomogram.github.io
-
+Available at gbm-nomogram.github.io
 -->
 
   <h3 align="center">Best-README-Template</h3>
