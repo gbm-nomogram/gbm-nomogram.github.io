@@ -54,8 +54,7 @@ Available at gbm-nomogram.github.io
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Glioblastoma is associated with fatal outcomes and devastating neurological presentations especially impacting the elderly. Management remains controversial and representation in clinical trials poor. We generated two nomograms and a clinical
-decision making webtool using real world data.
+Glioblastoma is one of the most common brain tumors associated with poor survival outcome especially impacting the elderly. There has very been few clinical trials dedicated to the elderly population and management remains controversial. We generated two nomograms for all comers and those who are candidates for Radiation Therapy based on data collected in the BC Cancer registry.
 
 More information see "Optimising management of the elderly patient with glioblastoma – survival prediction online tool based on BC Cancer Registry real world data"
 
