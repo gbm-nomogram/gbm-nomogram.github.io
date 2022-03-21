@@ -332,9 +332,9 @@ function calculate_all(){
 
 
   
-  const p6_all = '6 Month Survival Probabiilty: ' + prob_6[0]*100+'%' + ' to ' + prob_6[1]*100+'%';
+  const p6_all = '6 Month Survival Probability: ' + prob_6[0]*100+'%' + ' to ' + prob_6[1]*100+'%';
 
-  const p12_all = '12 Month Survival Probabiilty: ' + prob_12[0]*100+'%' + ' to ' + prob_12[1]*100+'%';
+  const p12_all = '12 Month Survival Probability: ' + prob_12[0]*100+'%' + ' to ' + prob_12[1]*100+'%';
 
   document.getElementById("prob6_all").innerHTML = p6_all;
 
